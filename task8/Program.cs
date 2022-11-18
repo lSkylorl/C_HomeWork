@@ -12,6 +12,7 @@ if (res == 1)
 }
 while(res <= number)
 {
-    Console.WriteLine(res);res += 2;
+    Console.WriteLine(res);
+    res = res + 2;
 }
 
