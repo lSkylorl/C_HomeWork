@@ -4,8 +4,8 @@ int[] num = new int[size];
 int sum = 0;
 
 Console.Write("массив: ");
-FillArray(num);
-void FillArray(int[] num)
+Arr(num);
+void Arr(int[] num)
 {
     for(int i = 0; i < size; i++)
         {
