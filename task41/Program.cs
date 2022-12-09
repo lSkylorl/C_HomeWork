@@ -1,10 +1,10 @@
 ﻿Console.Write("Введите элементы массива: ");
-int[] arr = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
+int[] shlepa = Array.ConvertAll(Console.ReadLine().Split(), int.Parse);
 int count = 0;
  
-for (int i = 0; i < arr.Length; i++)
+for (int i = 0; i < shlepa.Length; i++) 
 {
-    if (arr[i] > 0)
+    if (shlepa[i] > 0)
     {
         count++;
     }
